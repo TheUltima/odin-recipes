@@ -17,5 +17,17 @@
       <li><a href="./recipes/creme-brulee.html">Crème brûlée</a></li>
       <li><a href="./recipes/pumpkin-pie.html">Pumpkin Pie</a></li>
     </ul>
+    <script>
+      const listElements = document.getElementsByTagName("li");
+
+      for (const element of listElements) {
+        element.classList.add("main-recipes");
+      }
+      // const listElements = document.querySelectorAll("li");
+
+      // for (let i = 0; i < listElements.length; i++) {
+      //   listElements[i].classList.add("main-recipes");
+      // }
+    </script>
   </body>
 </html>
