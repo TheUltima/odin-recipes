@@ -42,24 +42,34 @@ ul li {
   border-radius: 20px;
   padding: 20px 40px;
   background-color: rgba(11, 171, 245, 0.74);
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
 }
 
 .main-list li {
   list-style: none;
-  display: inline;
+  height: 100px;
+  width: 100px;
+  flex: 1 0 auto;
+  border: black 2px solid;
+  background-color: rgb(76, 65, 235);
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 .main-list li a {
   color: black;
   list-style-type: none;
+  font-size: 1.2rem;
   padding: 8px;
-  background-color: rgb(76, 65, 235);
-  border: black 2px solid;
   text-decoration: none;
-  border-radius: 5px;
   color: white;
-  margin-right: 10px;
-  display: inline-block;
+  border-radius: 2px;
+  flex: 1 1 auto;
+  text-align: center;
 }
 
 .main-list a:hover {
